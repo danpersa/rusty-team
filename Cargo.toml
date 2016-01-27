@@ -1,0 +1,10 @@
+[package]
+name = "rusty-team"
+version = "0.1.0"
+authors = ["Dan Persa <dan.persa@gmail.com>"]
+
+[dependencies]
+nickel = "~0.7"
+rustc-serialize = "~0.3"
+log = "~0.3"
+env_logger = "~0.3"

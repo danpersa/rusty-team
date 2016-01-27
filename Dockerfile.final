@@ -1,0 +1,11 @@
+FROM busybox
+
+ADD rusty-team /usr/bin/rusty-team
+
+RUN chmod +x /usr/bin/rusty-team
+
+ENV RUST_LOG debug
+
+EXPOSE 6767
+
+ENTRYPOINT ["/usr/bin/rusty-team"]
