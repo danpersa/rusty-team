@@ -6,6 +6,6 @@ RUN chmod +x /usr/bin/rusty-team
 
 ENV RUST_LOG debug
 
-EXPOSE 6868
+EXPOSE 6768
 
 ENTRYPOINT ["/usr/bin/rusty-team"]
